@@ -57,7 +57,6 @@ int main()
     {
         int a, b, c;
         cin >> a >> b >> c; // indexado apartir do 0
-        --a, --b;
         g[a].push_back({c, b});
         g[b].push_back({c, a});
     }
